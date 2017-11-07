@@ -1,0 +1,93 @@
+a, h1, h2, h3, h4, h5, h6, p, span, ol, ul, li, b, i, textarea, input {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #2692ff;
+}
+
+h1.header {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+p.share-prompt {
+  font-style: italic;
+}
+
+p.footer {
+  position: absolute;
+  bottom: 3%;
+}
+
+a#share-link {
+  border: 1px solid #000;
+  margin: 1em 0;
+  padding: .5rem;
+}
+
+div.App {
+  display: flex;
+  flex-direction: row;
+}
+
+div.meta {
+  flex: .2;
+  padding: 2em;
+}
+
+div.entry {
+  flex: .8;
+  padding:2em;
+  width: 100%;
+}
+
+div.users {
+  display: flex;
+  width: 100%;
+}
+
+div.user {
+  background: #ccc;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 2em;
+  margin-right: .5em;
+  padding: .5em;
+  text-align: center;
+  width: 2em;
+}
+
+div.user:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+
+p.user__name {
+  color: #fff;
+  font-size: 1.25rem;
+  text-transform: lowercase;
+}
+
+p.user__header {
+  font-style: italic;
+}
+
+textarea#textarea-main {
+  border: 1px solid #eee;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  height: 80vh;
+  padding: 1em;
+  resize: none;
+  outline: none !important;
+  width: 100%;
+}
